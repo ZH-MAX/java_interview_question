@@ -17,7 +17,7 @@ package pers.basic.binarysearch;
 public class BinarySearch {
     public static void main(String[] args) {
         int[] arr = {1,5,8,11,19,22,31,35,40,45,48,49,50};
-        int target = 48;
+        int target = 47;
         int idx = binarySearch(arr,target);
         System.out.println(idx);
     }
