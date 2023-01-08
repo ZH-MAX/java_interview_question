@@ -35,7 +35,6 @@ public class BubbleSortFinal {
                 break;
             }
         }
-
     }
 
     public static void bubble(int[] a){
@@ -56,7 +55,6 @@ public class BubbleSortFinal {
                 break;
             }
         }
-
     }
 
     public static void swap(int[] a,int i,int j) {
