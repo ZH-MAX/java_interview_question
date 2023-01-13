@@ -10,7 +10,7 @@ public class InsertSort {
     public static void main(String[] args) {
         int[] a={9,3,7,2,5,8,1,4};
         insert(a);
-        System.out.println(Arrays.toString(a));
+//        System.out.println(Arrays.toString(a));
     }
 
     private static void insert(int[] a){
@@ -21,9 +21,13 @@ public class InsertSort {
             while (j>=0){
                 if (temp < a[j]){
                     a[j+1] = a[j];
+                }else {
+                    break;
                 }
                 j--;
             }
+            a[j+1] = temp;
+            System.out.println(Arrays.toString(a));
         }
     }
 }
